@@ -1,8 +1,9 @@
 
-Vagrant.configure("") do |config|
+Vagrant.configure("1") do |config|
 
       config.vm.box = "centos/7"
-    
+
+
       config.vm.provision "file", source: "file-mover.service", destination: "~/file-mover.service"
     
       config.vm.provision "shell", path: "Script.sh"
