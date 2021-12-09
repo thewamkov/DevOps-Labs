@@ -1,0 +1,1 @@
+ssh -D 1080 -p 4022 root@yoko.ukrtux.com
