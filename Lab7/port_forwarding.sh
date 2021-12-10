@@ -1,1 +1,1 @@
-ssh -D 1080 -p 4022 root@yoko.ukrtux.com
+ssh -D 1080 -p 4522 -i C:/Users/thewa/.ssh/id_rsa  root@yoko.ukrtux.com

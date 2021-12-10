@@ -1,1 +1,1 @@
-ssh -p 4122 -R 14122:localhost:22 root@yoko.ukrtux.com
+ssh -p 4522 -R 14122:localhost:8888 -i C:/Users/thewa/.ssh/id_rsa root@yoko.ukrtux.com
